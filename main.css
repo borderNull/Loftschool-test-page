@@ -1,0 +1,416 @@
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, font, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td {
+margin: 0;
+padding: 0;
+border: 0;
+outline: 0;
+font-size: 100%;
+vertical-align: baseline;
+background: transparent;
+}
+
+@font-face {
+	font-family: FontAwesome;
+	src: url(fonts/FontAwesome/fontawesome-webfont.ttf);
+	src: url(fonts/FontAwesome/FontAwesome.otf);
+}
+
+@font-face {
+	font-family: FiraSans-Medium;
+	src: url(fonts/FiraSans/FiraSans-Medium.ttf);
+}
+@font-face {
+	font-family: FiraSans-Light;
+	src: url(fonts/FiraSans/FiraSans-Light.ttf);
+}
+
+@font-face {
+	font-family: FiraSans-Bold;
+	src: url(fonts/FiraSans/FiraSans-Bold.ttf);
+}
+
+@font-face {
+	font-family: FiraSans-Regular;
+	src: url(fonts/FiraSans/FiraSans-Regular.ttf);
+}
+
+html {
+
+	width: 100%;
+	height: 100%;
+}
+
+
+body {
+	width: 100%;
+	height: 100%;
+}
+
+
+header {
+	background-color: #8cc34b;
+	height: 90px;
+	box-shadow: 1px 4px 17px 1px rgba(0,0,0,0.35);
+	min-width: 980px;
+	/* display: inline-flex; */
+	
+
+	
+}
+
+
+
+
+
+.photo {
+	float: left;
+	width: 120px;
+}
+
+.text {
+float: left;
+	padding: 12px 0;
+	color: #fff;
+	
+}
+.scrubs {
+	width: 75px;
+	height: 75px;
+	border-radius: 50%;
+	border: 3px solid #fff;
+	position: relative;
+	top: 5px;
+	left: 20px;
+}
+
+.name {
+   font-size: 22px;
+   font-family: FiraSans-Medium;
+   text-transform: capitalize;
+   padding-top: 10px;
+
+}
+
+.mail{
+	font-family: FiraSans-Regular;
+	color: #ddedc9;
+}
+
+.clear {
+	clear: both;
+}
+
+.social_block {
+	padding-top: 26px;
+	float: right;
+}
+
+.social_block img {
+	padding: 0 5px;
+	
+}
+
+.social_block img:last-child {
+	padding-bottom: 3px;
+	
+}
+
+a svg {
+	padding: 0 10px;
+}
+
+ a svg:hover #skype,
+ a svg:hover #vk,
+ a svg:hover #git {
+fill: #fff;
+}
+
+a {
+	text-decoration: none;
+}
+
+/* HEADER SECTION END */
+
+/* ABOUT SECTION  */
+
+
+
+.about_wrap {
+	height: 100%;
+}
+
+.container {
+	width: 980px;
+	margin: 0 auto;
+}
+
+.heading h1 {
+	text-align: center;
+	font-size: 42px;
+	margin-top: 80px;
+	font-family: FiraSans-Medium;
+}
+
+.heading p {
+	text-align: center;
+	font-size: 21px;
+	margin-top: 30px;
+	font-family: FiraSans-Light;
+}
+
+.heading {
+	margin-bottom: 30px;
+}
+
+
+.about_me {
+	width: 450px;
+	
+	position: relative;
+     margin-right: 4%;
+	float: left;
+
+
+
+}
+
+.about_me img {
+	float: left;
+	margin-right: 21px;
+	
+
+}
+
+.about_me h3 {
+	margin-bottom: 20px;
+	font-size: 21px;
+	font-family: FiraSans-Regular;
+}
+
+.about_me p {
+	
+	font-size: 14px;
+	font-family: FiraSans-Light;
+	color: #858585;
+	width: 270px;
+    padding-left: 172px;
+}
+
+.expirience {
+	width: 450px;
+	position: relative;
+    margin-right: 4%;
+	float: left;
+}
+
+.expirience img {
+	float: left;
+	margin-right: 21px;
+}
+
+.expirience h3 {
+	margin-bottom: 20px;
+	font-size: 21px;
+	font-family: FiraSans-Regular;
+}
+
+.expirience p {
+	font-size: 14px;
+	font-family: FiraSans-Light;
+	width: 270px;
+    padding-left: 160px;
+    color: #858585;
+}
+
+/* ABOUT SECTION END */
+
+/* COURSES SECTION */
+
+
+
+.courses {
+	height: 1240px;
+}
+
+.courses h2 {
+	font-size: 42px;
+	text-align: center;
+	margin-bottom: 32px;
+	margin-top: 80px;
+	padding-top: 80px;
+	font-family: FiraSans-Medium;
+}
+
+
+.courses p {
+	font-size: 21px;
+	text-align: center;
+	font-family: FiraSans-Light;
+	color: #727272;
+}
+
+.one_third {
+	width: 300px;
+	height: auto;
+	display: inline-block;
+	margin: 0 20px 20px 0;
+	box-shadow: 0px 10px 10px 3px rgba(0,0,0,0.18);
+	background-color: #fff;
+	position: relative;
+	vertical-align: top;
+
+	
+}
+
+.descr h4 {
+	font-size: 21px;
+	padding-top: 20px;
+	margin-bottom: 20px;
+	padding-left: 20px;
+	font-family: FiraSans-Regular;
+	top: -5px;
+    position: relative;
+}
+
+.descr h4:hover {
+	cursor: pointer;
+	color: #8cc34b;
+	border-top: 5px solid  #8cc34b;
+}
+
+
+.descr p {
+	font-size: 14px;
+	text-align: left;
+	padding: 0 20px;
+	font-family: FiraSans-Light;
+	color: #7b7b7b;
+}
+
+
+
+.time {
+	padding: 0 20px;
+	margin: 20px 0;
+}
+
+/* CHECKBOX STYLE */
+.check {
+	background-color: #f6f7f2;
+	padding: 27px 0 27px 20px;
+}
+
+label {
+	display: inline;
+}
+
+.nice_check {
+	display: none;
+}
+
+.nice_check + label {
+	background-color: #fafafa;
+	border: 2px solid #b6b6b6;
+	box-shadow: 0 1px 2px rgba(0,0,0,0.05), inset 0px -15px 10px -12px rgba(0,0,0,0.05);
+	padding: 9px;
+	border-radius: 3px;
+	display: inline-block;
+	position: relative;
+	cursor: pointer;
+}
+
+.nice_check + label:active, .nice_check:checked + label:active {
+	box-shadow: 0 1px 2px rgba(0,0,0,0.05), inset 0px 1px 3px rgba(0,0,0,0.1);
+}
+
+.nice_check:checked + label {
+	background-color: #acd37e;
+	border: 2px solid #b6b6b6;
+	box-shadow: 0 1px 2px rgba(0,0,0,0.05), inset 0px -15px 10px -12px rgba(0,0,0,0.05), inset 15px 10px -12px rgba(255,255,255,0.1);
+	color: #99a1a7;
+}
+
+.nice_check:checked + label:after {
+	content: '\2714';
+	font-size: 14px;
+	position: absolute;
+	top: 0px;
+	left: 3px;
+	color: #fff;
+}
+
+.center {
+	padding-left: 22px;
+	font-family: FiraSans-Regular;
+	font-size: 18px;
+
+}
+
+
+
+/* CHECKBOX STYLE END */
+
+.fa.fa-check {
+	color: #8cc34b;
+}
+
+#goodjob {
+	color: #8cc34b;
+	font-size: 42px;
+	position: relative;
+    display: none;
+    text-align: center;
+}
+
+.courses_box {
+	position: relative;
+	width: 100%;
+	height: 20px;
+	margin-top: 20px;
+
+}
+
+.courses {
+	
+	
+	padding-bottom: 122px;
+	
+}
+
+.courses_wrap {
+	background-image: url(gplaypattern.png);
+	 min-height: 100%;
+	 min-width: 980px;
+	  
+}
+
+.course_p {
+	margin-bottom: 20px;
+}
+/* COURSES SECTION END */
+
+
+
+.footer {
+
+	width: 100%;
+	background-color: #212121;
+	height: 70px;
+	text-align: center;
+	min-width: 980px;
+	
+}
+
+.foot_text {
+	color: #909090;
+	padding: 13px 0;
+	font-family: FiraSans-Regular;
+}
